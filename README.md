@@ -11,9 +11,9 @@ for those boxes.
 I think the question is backward. My understanding is that we aren't really 
 solving the naked twins problem, but rather we recognize when
 naked twins exist and use them to propagate contraints (remove digits) 
-from the other boxes. Naked twins are not a problem - they are part of
-the solution! We then assume that another contraint will reduce the two
-naken twins boxes to one digit each. 
+from the other boxes.  We then assume that another contraint will reduce the two
+naked twins boxes to one digit each. Naked twins are not a problem - they are part of
+the solution. 
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
@@ -26,6 +26,11 @@ Adding the diagonal rules to the existing code was a simple exercise of
 defining the two diagonal units and adding them to the "unitlist". The 
 "unitlist" values get propagated to "units" and "peers" and are then used
 by the existing methods.
+
+
+
+
+
 
 ### Install
 
